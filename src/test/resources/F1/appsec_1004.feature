@@ -2,12 +2,6 @@
 
 Feature: apscen21
 
-	Scenario: app121
-		Given dsf
-		When df
-		Then df
-
-
 	Scenario Outline: sda
 		Given <d> 
 		When  <df>  
