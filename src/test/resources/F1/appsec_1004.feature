@@ -5,7 +5,7 @@ Feature: apscen21
 	Scenario Outline: sda
 		Given <d> 
 		When  <df>  
-		Then sdf
+		Then sari
 
 	Examples:
 		| param1 | param2 |
