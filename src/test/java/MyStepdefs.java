@@ -13,6 +13,24 @@ public class MyStepdefs {
         }
     }
 
+    @Given("<d>")
+    public void d() {
+        // Write code here that turns the phrase above into concrete actions
+//        throw new cucumber.api.PendingException();
+    }
+
+    @When("<df>")
+    public void df() {
+        // Write code here that turns the phrase above into concrete actions
+//        throw new cucumber.api.PendingException();
+    }
+
+    @Then("sdf")
+    public void sdf() {
+        // Write code here that turns the phrase above into concrete actions
+//        throw new cucumber.api.PendingException();
+    }
+
 
 
 }
