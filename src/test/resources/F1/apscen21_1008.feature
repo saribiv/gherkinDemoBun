@@ -1,0 +1,27 @@
+Feature: Number 2
+Scenario: numberStatus
+	Given numberOdd
+	When one
+	Then two
+@Manual
+Scenario: Approve2222
+    Given numberEven
+    When three
+    Then four
+
+Scenario Outline: Online
+    Given all
+    When  <param2>
+    Then <param1>
+
+Examples:
+    | param1 | param2 |
+    | 2      | 4      |
+    | 8      | 8      |
+    | 1      | 2      |
+    | 3      | 6      |
+@Manual
+Scenario: new scenario
+    Given new given
+    When new when
+    Then new then
