@@ -20,5 +20,15 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.microfocus.adm.almoctane.bdd</groupId>
+                    <artifactId>bdd2octane</artifactId>
+                    <!--version>1.1.14</version-->
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
