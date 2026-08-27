@@ -11,3 +11,8 @@ Feature: apscen21
 		| param1 | param2 |
 		| a      | 1      |
 		| b      | 2      |
+
+  Scenario: Approve
+    Given numberEven
+    When three
+    Then four
